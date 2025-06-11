@@ -1,0 +1,10 @@
+name: Publish python app to docker
+on:
+  push:
+    branches: [main]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hey
+        run: echo "Hello there"

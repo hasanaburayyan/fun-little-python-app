@@ -5,6 +5,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    environment: simple-example
     steps:
       - name: Clone the code
         uses: actions/checkout@v3
